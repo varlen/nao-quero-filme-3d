@@ -1,0 +1,19 @@
+{
+  "name" : "iHate3DMovies",
+  "version" : "1.1",
+  "description" : "Filtra as sessões em 3D do site Ingresso.com",
+  "background" : {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "images/n38.png",
+    "default_title" : "Click to filter 3d movies!!"
+  },
+  "permissions": [ "declarativeContent", "activeTab" ],
+  "icons" : {
+    "38" : "images/n38.png"
+  },
+  "manifest_version": 2
+}

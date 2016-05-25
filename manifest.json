@@ -9,7 +9,7 @@
   "page_action" :
   {
     "default_icon" : "images/n38.png",
-    "default_title" : "Click to filter 3d movies!!"
+    "default_title" : "Clique para remover as sessões 3D"
   },
   "permissions": [ "declarativeContent", "activeTab" ],
   "icons" : {

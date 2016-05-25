@@ -3,10 +3,10 @@ chrome.runtime.onInstalled.addListener(function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [
         new chrome.declarativeContent.PageStateMatcher({
-          // pageUrl: {
-          //   hostEquals: 'www.ingresso.com',
-          //   schemes: ['https','http']
-          // },
+          pageUrl: {
+            hostEquals: 'www.ingresso.com',
+            schemes: ['https','http']
+          },
           css: [".tipo-sessao"]
         })
       ],
